@@ -1,0 +1,171 @@
+@import "bootstrap/bootstrap";
+
+html{
+    direction: rtl;
+}
+body{
+    text-align: right;
+    font-size: 18px;
+}
+/*
+####################################
+            start top-header 
+____________________________________
+*/
+.top-header {
+    @extend .container;
+    display: grid;
+    grid-template-columns: 100px 1fr min-content;
+    column-gap: 30px;
+    &__description {
+        font-size: 16px;
+    }
+
+    &__img {}
+
+    &__input {
+        @extend .border-0;
+        outline: 0;
+    }
+
+    &__link {}
+
+    &__seach-box {
+        display: grid;
+        grid-template-columns: 1fr min-content  ;
+        column-gap: 5px;
+        align-items: center;
+        border: 1px solid #777;
+        height: 40px;
+        @extend .rounded;
+        @extend .pr-2 , .pl-2;
+    }
+
+    &__search-icon {}
+
+    &__title {}
+
+    &__title-box {}
+}
+/*
+____________________________________
+             End  top-header 
+####################################
+*/
+
+
+/*
+####################################
+            start navbar 
+____________________________________
+*/
+.navbar {
+    @extend .container;
+
+    &__date {}
+
+    &__day-mouth {}
+
+    &__day-name {}
+
+    &__day-number {}
+
+    &__item {
+        @extend .nav-item;
+    }
+
+    &__link {
+        @extend .nav-link;
+        color: #444;
+    }
+
+    &__nav {
+        @extend .nav;
+    }
+}
+/*
+____________________________________
+             End  navbar 
+####################################
+*/
+
+/*
+####################################
+            start home-news 
+____________________________________
+*/
+.home__news{
+    @extend .container;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+}
+/*
+____________________________________
+             End  home-news 
+####################################
+*/
+
+
+/*
+####################################
+            start favorite-news 
+____________________________________
+*/
+.favorite-news {
+    &__box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    &__caption {}
+
+    &__date-box {}
+
+    &__date-day {}
+
+    &__date-mounth {}
+
+    &__date-year {}
+
+    &__details {}
+
+    &__img {}
+
+    &__item {}
+
+    &__title {}
+}
+/*
+____________________________________
+             End  favorite-news 
+####################################
+*/
+
+
+/*
+####################################
+            start day-news 
+____________________________________
+*/
+
+.day-news {
+    
+    &__caption {}
+
+    &__img {
+       
+    }
+
+    &__item {
+        display: grid;
+        grid-template-columns: min-content 1fr ;
+    }
+
+    &__list {}
+}
+
+/*
+____________________________________
+             End  day-news 
+####################################
+*/
