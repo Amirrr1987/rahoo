@@ -1,3 +1,7 @@
+/*
+####################################
+            start font icon 
+*/
 @font-face {
   font-family: 'icon';
   src: url("../font/icon/icon.eot?60724978");
@@ -66,12 +70,24 @@
   content: '\f1c9';
 }
 
+/*
+             End  font icon 
+####################################
+*/
+/*
+##############################################
+            start bootstrap framework 
+*/
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+/*
+####################################
+            start root 
+*/
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -103,6 +119,14 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+/*
+             End  root 
+####################################
+*/
+/*
+####################################
+            start reboot 
+*/
 *,
 *::before,
 *::after {
@@ -419,6 +443,14 @@ template {
   display: none !important;
 }
 
+/*
+             End  reboot 
+####################################
+*/
+/*
+####################################
+            start type 
+*/
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
@@ -536,6 +568,14 @@ mark,
   content: "\2014\00A0";
 }
 
+/*
+             End  type 
+####################################
+*/
+/*
+####################################
+            start images 
+*/
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -564,6 +604,14 @@ mark,
   color: #6c757d;
 }
 
+/*
+             End  images 
+####################################
+*/
+/*
+####################################
+            start code 
+*/
 code {
   font-size: 87.5%;
   color: #e83e8c;
@@ -605,6 +653,14 @@ pre code {
   overflow-y: scroll;
 }
 
+/*
+             End  code 
+####################################
+*/
+/*
+####################################
+            start grid 
+*/
 .container, .top-header__row, .navbar__row, .news__row, .media__row, .links__row, .contact__row, .vist__row,
 .container-fluid,
 .container-sm,
@@ -1542,6 +1598,14 @@ pre code {
   }
 }
 
+/*
+             End  grid 
+####################################
+*/
+/*
+####################################
+            start tables 
+*/
 .table {
   width: 100%;
   margin-bottom: 1rem;
@@ -1885,6 +1949,14 @@ pre code {
   border: 0;
 }
 
+/*
+             End  tables 
+####################################
+*/
+/*
+####################################
+            start forms 
+*/
 .form-control, .contact__email, .contact__form-name {
   display: block;
   width: 100%;
@@ -2341,6 +2413,14 @@ textarea.form-control, textarea.contact__email, textarea.contact__form-name {
   }
 }
 
+/*
+             End  forms 
+####################################
+*/
+/*
+####################################
+            start buttons 
+*/
 .btn, .contact__submit {
   display: inline-block;
   font-weight: 400;
@@ -2990,6 +3070,14 @@ input[type="button"].btn-block {
   width: 100%;
 }
 
+/*
+             End  buttons 
+####################################
+*/
+/*
+####################################
+            start transitions 
+*/
 .fade {
   transition: opacity 0.15s linear;
 }
@@ -3021,6 +3109,14 @@ input[type="button"].btn-block {
   }
 }
 
+/*
+             End  transitions 
+####################################
+*/
+/*
+####################################
+            start dropdown
+*/
 .dropup,
 .dropright,
 .dropdown,
@@ -3269,6 +3365,14 @@ input[type="button"].btn-block {
   color: #212529;
 }
 
+/*
+             End  dropdown
+####################################
+*/
+/*
+####################################
+start button-group 
+*/
 .btn-group,
 .btn-group-vertical {
   position: relative;
@@ -3403,6 +3507,14 @@ input[type="button"].btn-block {
   pointer-events: none;
 }
 
+/*
+             End  button-group 
+####################################
+*/
+/*
+####################################
+            start input-group 
+*/
 .input-group {
   position: relative;
   display: flex;
@@ -3617,6 +3729,14 @@ input[type="button"].btn-block {
   border-bottom-left-radius: 0;
 }
 
+/*
+             End  input-group 
+####################################
+*/
+/*
+####################################
+            start custom-forms 
+*/
 .custom-control {
   position: relative;
   z-index: 1;
@@ -4068,6 +4188,14 @@ input[type="button"].btn-block {
   }
 }
 
+/*
+             End  custom-forms 
+####################################
+*/
+/*
+####################################
+            start nav 
+*/
 .nav, .navbar__nav {
   display: flex;
   flex-wrap: wrap;
@@ -4165,6 +4293,14 @@ input[type="button"].btn-block {
   display: block;
 }
 
+/*
+             End  nav 
+####################################
+*/
+/*
+####################################
+            start navbar 
+*/
 .navbar {
   position: relative;
   display: flex;
@@ -4533,6 +4669,14 @@ input[type="button"].btn-block {
   color: #fff;
 }
 
+/*
+             End  navbar 
+####################################
+*/
+/*
+####################################
+            start card 
+*/
 .card {
   position: relative;
   display: flex;
@@ -4764,6 +4908,10 @@ input[type="button"].btn-block {
   margin-bottom: -1px;
 }
 
+/*
+             End  card 
+####################################
+*/
 .breadcrumb {
   display: flex;
   flex-wrap: wrap;
@@ -6395,6 +6543,10 @@ a.close.disabled {
   height: 1rem;
 }
 
+/*
+####################################
+            start utilities 
+*/
 .align-baseline {
   vertical-align: baseline !important;
 }
@@ -7504,6 +7656,10 @@ button.bg-dark:focus {
   overflow: hidden !important;
 }
 
+/*
+####################################
+            start position 
+*/
 .position-static {
   position: static !important;
 }
@@ -7548,6 +7704,14 @@ button.bg-dark:focus {
   }
 }
 
+/*
+             End  position 
+####################################
+*/
+/*
+####################################
+            start screenreaders 
+*/
 .sr-only {
   position: absolute;
   width: 1px;
@@ -7569,6 +7733,14 @@ button.bg-dark:focus {
   white-space: normal;
 }
 
+/*
+             End  screenreaders 
+####################################
+*/
+/*
+####################################
+            start shadows 
+*/
 .shadow-sm, .top-header, .navbar, .media {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
@@ -7585,6 +7757,14 @@ button.bg-dark:focus {
   box-shadow: none !important;
 }
 
+/*
+             End  shadows 
+####################################
+*/
+/*
+####################################
+            start sizing 
+*/
 .w-25 {
   width: 25% !important;
 }
@@ -7649,6 +7829,14 @@ button.bg-dark:focus {
   height: 100vh !important;
 }
 
+/*
+             End  sizing 
+####################################
+*/
+/*
+####################################
+            start spacing 
+*/
 .m-0 {
   margin: 0 !important;
 }
@@ -9463,6 +9651,14 @@ button.bg-dark:focus {
   }
 }
 
+/*
+             End  spacing 
+####################################
+*/
+/*
+####################################
+            start  stretched-link
+*/
 .stretched-link::after {
   position: absolute;
   top: 0;
@@ -9475,6 +9671,14 @@ button.bg-dark:focus {
   background-color: rgba(0, 0, 0, 0);
 }
 
+/*
+             End  stretched-link
+####################################
+*/
+/*
+####################################
+            start text 
+*/
 .text-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
@@ -9698,6 +9902,14 @@ a.text-dark:hover, a.text-dark:focus {
   color: inherit !important;
 }
 
+/*
+             End  text 
+####################################
+*/
+/*
+####################################
+            start visibility 
+*/
 .visible {
   visibility: visible !important;
 }
@@ -9706,6 +9918,18 @@ a.text-dark:hover, a.text-dark:focus {
   visibility: hidden !important;
 }
 
+/*
+             End  visibility 
+####################################
+*/
+/*
+             End  utilities 
+####################################
+*/
+/*
+####################################
+            start print 
+*/
 @media print {
   *,
   *::before,
@@ -9785,6 +10009,14 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+/*
+             End  print 
+####################################
+*/
+/*
+             End  bootstrap framework 
+##############################################
+*/
 @font-face {
   font-family: Iran Sans;
   font-weight: 400;
@@ -9804,17 +10036,14 @@ body {
 /*
 ####################################
             start header 
-____________________________________
 */
 /*
-____________________________________
              End  header 
 ####################################
 */
 /*
 ####################################
             start top-header 
-____________________________________
 */
 .top-header__row {
   display: grid;
@@ -9843,56 +10072,48 @@ ____________________________________
 }
 
 /*
-____________________________________
              End  top-header 
 ####################################
 */
 /*
 ####################################
             start navbar 
-____________________________________
 */
 .navbar__link {
   color: #444;
 }
 
 /*
-____________________________________
              End  navbar 
 ####################################
 */
 /*
 ####################################
             start slider 
-____________________________________
 */
 .carousel img {
   height: 500px;
 }
 
 /*
-____________________________________
              End  slider 
 ####################################
 */
 /*
 ####################################
             start home 
-____________________________________
 */
 .home {
   background-color: #ece9e4;
 }
 
 /*
-____________________________________
              End  home 
 ####################################
 */
 /*
 ####################################
             start home-news 
-____________________________________
 */
 .news__row {
   display: grid;
@@ -9901,14 +10122,12 @@ ____________________________________
 }
 
 /*
-____________________________________
              End  home-news 
 ####################################
 */
 /*
 ####################################
             start favorite-news 
-____________________________________
 */
 .favorite-news {
   background-color: #F1F1F1;
@@ -9937,14 +10156,12 @@ ____________________________________
 }
 
 /*
-____________________________________
              End  favorite-news 
 ####################################
 */
 /*
 ####################################
             start day-news 
-____________________________________
 */
 .day-news__caption {
   font-size: 14px;
@@ -9972,14 +10189,12 @@ ____________________________________
 }
 
 /*
-____________________________________
              End  day-news 
 ####################################
 */
 /*
 ####################################
             start media 
-____________________________________
 */
 .media {
   background-image: url("https://picsum.photos/id/1008/1600/300?grayscale&blur=2");
@@ -9992,14 +10207,12 @@ ____________________________________
 }
 
 /*
-____________________________________
              End  media 
 ####################################
 */
 /*
 ####################################
             start pictures 
-____________________________________
 */
 .pictures {
   display: grid;
@@ -10013,14 +10226,12 @@ ____________________________________
 }
 
 /*
-____________________________________
              End  pictures 
 ####################################
 */
 /*
 ####################################
             start videos 
-____________________________________
 */
 .videos {
   display: grid;
@@ -10029,14 +10240,12 @@ ____________________________________
 }
 
 /*
-____________________________________
              End  videos 
 ####################################
 */
 /*
 ####################################
             start links 
-____________________________________
 */
 .links {
   background-color: #ffffff;
@@ -10061,14 +10270,12 @@ ____________________________________
 }
 
 /*
-____________________________________
              End  links 
 ####################################
 */
 /*
 ####################################
             start contact 
-____________________________________
 */
 .contact__form-name {
   border-bottom: 1px solid #007bff;
@@ -10080,24 +10287,20 @@ ____________________________________
 }
 
 /*
-____________________________________
              End  contact 
 ####################################
 */
 /*
 ####################################
-            start vist 
-____________________________________
+            start visit 
 */
 /*
-____________________________________
-             End  vist 
+             End  visit 
 ####################################
 */
 /*
 ####################################
             start footer 
-____________________________________
 */
 .footer {
   background-color: #ffffff;
@@ -10105,8 +10308,15 @@ ____________________________________
 }
 
 /*
-____________________________________
              End  footer 
+####################################
+*/
+/*
+####################################
+            start header 
+*/
+/*
+             End  header 
 ####################################
 */
 /*# sourceMappingURL=style.css.map */
